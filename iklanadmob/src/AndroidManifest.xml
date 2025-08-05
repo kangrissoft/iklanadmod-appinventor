@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="id.kangris.iklanadmob.iklanadmob">
+
+  <application>
+    <!-- You can use any manifest tag that goes inside the <application> tag -->
+    <!-- <service android:name="com.example.MyService"> ... </service> -->
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-3940256098942970~3347511713"/>
+  </application>
+
+  <!-- Other than <application> level tags, you can use <uses-permission> & <queries> tags -->
+  <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+  <!-- <queries> ... </queries> -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>
