@@ -11,3 +11,12 @@
 -useuniqueclassmembernames
 -dontskipnonpubliclibraryclasses
 -dontskipnonpubliclibraryclassmember
+
+# Keep Google Mobile Ads classes
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.ads.** { *; }
+
+# Keep extension classes
+-keep class id.kangris.iklanadmob.iklanadmob.** { *; }
+
+-dontwarn com.google.android.gms.ads.**
